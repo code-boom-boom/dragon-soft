@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'SST Arabic';
+    src: url('../fonts/SSTArabic-Light.eot');
+    src: url('../fonts/SSTArabic-Lightd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/SSTArabic-Light.woff2') format('woff2'), url('../fonts/SSTArabic-Light.woff') format('woff'), url('../fonts/SSTArabic-Light.ttf') format('truetype'), url('../fonts/SSTArabic-Light.svg#SSTArabic-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SST Arabic';
+    src: url('../fonts/SSTArabic-Roman.eot');
+    src: url('../fonts/SSTArabic-Romand41d.eot?#iefix') format('embedded-opentype'), url('../fonts/SSTArabic-Roman.woff2') format('woff2'), url('../fonts/SSTArabic-Roman.woff') format('woff'), url('../fonts/SSTArabic-Roman.ttf') format('truetype'), url('../fonts/SSTArabic-Roman.svg#SSTArabic-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SST Arabic';
+    src: url('../fonts/SSTArabic-Medium.eot');
+    src: url('../fonts/SSTArabic-Mediumd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/SSTArabic-Medium.woff2') format('woff2'), url('../fonts/SSTArabic-Medium.woff') format('woff'), url('../fonts/SSTArabic-Medium.ttf') format('truetype'), url('../fonts/SSTArabic-Medium.svg#SSTArabic-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SST Arabic';
+    src: url('../fonts/SSTArabic-Bold.eot');
+    src: url('../fonts/SSTArabic-Boldd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/SSTArabic-Bold.woff2') format('woff2'), url('../fonts/SSTArabic-Bold.woff') format('woff'), url('../fonts/SSTArabic-Bold.ttf') format('truetype'), url('../fonts/SSTArabic-Bold.svg#SSTArabic-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'SST Arabic';
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu a.dropdown-item .link-ico span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.inner-header .box-content .page-title p {
+    font-weight: 500;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    padding-left: .5rem;
+    padding-right: 0;
+}
+
+.post-item .post-txt ul li {
+    margin-right: 0;
+    margin-left: 17px;
+}
+
+.post-item .post-txt ul li:after {
+    left: -11px;
+    right: auto;
+}
+
+.post-item .post-txt p {
+    font-size: 14px;
+}
+
+.leave-comment h5 i, .single-pp .post-comments h5 i, .single-pp .pagi-post a p i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.single-pp .pagi-post a.next-post i {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.comment-box .comment-head .member-info .member-name {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.comment-box .comment-head .comment-reply a i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.floating-label-field--s3+.floating-label {
+    left: auto;
+    right: .75em;
+}
+
+.form-buttons {
+    text-align: left;
+}
+
+.bttn i {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.sitemap ul li a {
+    font-weight: 500;
+}
+
+.footer-copyright .copyright-txt span a:after, .footer-copyright .fast-links ul li a:after, .sitemap ul li a:after {
+    left: 0;
+    right: auto;
+}
+
+.footer-copyright .copyright-txt span a:hover:after, .footer-copyright .fast-links ul li a:hover:after, .sitemap ul li a:hover:after {
+    right: 0;
+    left: auto;
+}
+
+.faq-control ul li a i, .accordion-box h4 i, .job-post .job-location i, .txt-signup ul li i, .sidebox h5 i, .navbar-nav.nav-buttons .nav-lang, .contact-details ul li i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.newsletter .input-box button {
+    right: auto;
+    left: 0;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.contact-details ul li {
+    font-family: 'Poppins', sans-serif;
+}
+
+.comment-inner ul {
+    padding-left: 0;
+    padding-right: 60px;
+}
+
+.newsletter .input-box input {
+    padding-right: 1em;
+    padding-left: 53px;
+}
+
+.social-share a .name-icon i {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+.random-post .post-txt a i {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.random-post .post-txt a .btn_icon_1 {
+    right: auto;
+    left: -35px;
+}
+
+.random-post .post-txt a .btn_icon_2 {
+    right: auto;
+    left: -35px;
+}
+
+.random-post .post-txt a:hover .btn_icon_1 {
+    right: auto;
+    left: -70px;
+}
+
+.random-post .post-txt a:hover .btn_icon_2 {
+    right: auto;
+    left: -50px;
+}
+
+.checkbox-group input[type="checkbox"]+label {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.checkbox-group input[type="checkbox"]+label:before {
+    left: auto;
+    right: 0;
+}
+
+.custom-select {
+    background-position: 12px;
+}
+
+.contact-us-page .form-side .main-title {
+    text-align: right;
+}
+
+.contact-us-page .form-side .main-title h3 {
+    font-weight: 600;
+}
+
+.accordion-box h4 span {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.accordion-faq .card .card-header .btn-link {
+    text-align: right;
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.accordion-faq .card .card-header .btn-link:before, .accordion-faq .card .card-header .btn-link.collapsed:before {
+    right: auto;
+    left: 30px;
+}
+
+.accordion-faq .card .card-body {
+    border-right: 4px solid #4b3da7;
+    border-left: 0;
+}
+
+.faq-control ul li.active:after {
+    left: auto;
+    right: 0;
+}
+
+.side-service.right .service-item .plus-icon {
+    left: auto;
+    right: -40%;
+}
+
+.side-service.left .service-item .plus-icon {
+    right: auto;
+    left: -40%;
+}
+
+.side-service.left {
+    text-align: left;
+}
+
+.start-working .video-txt ul li i {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.testimonials .item .txt-item .person-details .txt-person {
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.price-item h4:after {
+    left: auto;
+    right: 0;
+}
+
+.price-item .price-details ul li i {
+    margin-right: 0;
+    margin-left: 14px;
+}
+
+.member-team .member-button-group a.facebook-view, .member-team .member-button-group a.twitter-view {
+    -webkit-transform: perspective(600px) rotateY(-90deg);
+    transform: perspective(600px) rotateY(-90deg);
+    -webkit-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+}
+
+.member-team .member-button-group a.twitter-view {
+    -webkit-transform: perspective(600px) rotateY(90deg);
+    transform: perspective(600px) rotateY(90deg);
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.box-application .form-bttns {
+    text-align: left;
+}
+
+.portfolio .list-control ul li:hover:after {
+    left: auto;
+    right: 0;
+}
+
+.portfolio .list-control ul li:after {
+    right: auto;
+    left: 0;
+}
+
+.section-title h3 {
+    line-height: 1.5;
+}
+
+#scroll-top {
+    right: auto;
+    left: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar .navbar-nav .nav-item .dropdown-menu a.dropdown-item {
+        padding-left: 20px;
+        padding-right: 0;
+    }
+}
